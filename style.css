@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.auto {
+    width: 800px;
+    margin: auto;
+    height: 500px;
+    margin-top: 100px;
+    background: #ccc;
+}
+
+.picture {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+img{
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+  
+}
+img:hover{
+    box-shadow: 5px 10px 18px #888888;
+   
+    filter: hue-rotate(360deg);
+}
